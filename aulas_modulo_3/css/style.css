@@ -7,24 +7,15 @@ html, body{
 	height: 100%;
 }
 
-.box{
-	width: 400px;
-	height: 400px;
-	background: gray;
+/*
+a[href="http://www.google.com"]{
+	background: yellow;
 }
-
-
-.box > .box2 > span{
-	display: inline-block;
-	/*
-	width: inherit;
-	height: inherit;
-	background: inherit;
-	*/
+[href="http://www.google.com"]{
+	background: red;
 }
+*/
 
-@media screen and (max-width: 480px){
-	.box{
-		height: auto;
-	}
+a[href*="google"]{
+	background-color: blue;
 }
