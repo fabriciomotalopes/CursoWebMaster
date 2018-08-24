@@ -8,14 +8,33 @@ html, body{
 }
 
 /*
-a[href="http://www.google.com"]{
-	background: yellow;
+table{
+	width: 900px;
+	border-collapse: collapse;
+	margin: 0 auto;
 }
-[href="http://www.google.com"]{
-	background: red;
+
+table tr td{
+	height: 40px;
+	vertical-align: bottom;
+	background: rgb(200,200,200);
+	border: 3px solid black;
 }
 */
 
-a[href*="google"]{
-	background-color: blue;
+.menu-fixed{
+	position: relative; /*absolute*/ /*fixed*/;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 300px;
+	height: 200px;
+	background: #069;
+}
+
+.box{
+	width: 400px;
+	height: 500px;
+	background: green;
 }
