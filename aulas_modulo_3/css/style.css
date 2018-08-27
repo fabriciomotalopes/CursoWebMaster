@@ -7,54 +7,56 @@ html, body{
 	height: 100%;
 }
 
-.bg{
-	/*
-	width: 100%;
-	height: 30vw;
-	margin: 0 auto;
-	background-image: url('../imagens/sunset.jpg');
-	background-size: cover;
-	background-attachment: fixed;
+.teste, .teste1, .teste2{
+	width: 300px;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: 30px;
+	display: inline-block;
+	/*background-color: #ccc;*/
+}
+
+.teste1{
+	background-color: rgb(98,98,98);
+}
+
+.teste2{
+	background-color: rgb(50,50,50);
+}
+
+/*
+.teste:hover{
+	background-color: blue;
+}
+*/
+
+/*
+.teste:active{
+	background-color: black;
+}
+*/
+
+/* focus serve para quando clicamos e focamos o nosso elemento do fomulário textare, inputs.. 
+.teste:focus{
 	background-color: red;
-	background-repeat: no-repeat;
-	*/
-
-	/*
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	*/
 }
 
-.box{
-
-	width: 100%;
-	margin: 80px auto;
-	text-align: center;
-	background-color: rgb(200,200,200);
-
-	/*
-	height: 2000px;
-	background-color: rgb(100, 100, 100);
-	*/
+.textarea1{
+	display: block;
+	width: 600px;
+	height: 400px;
 }
+*/
 
-.item{
-	width: 33.3%;
-	margin-right: -4px;
-	display: inline-block;
+/*
+.link1:visited{
+	color: purple;
 }
+*/
 
-.item img{
-	width: 16%;
+/*
+.link1:link{
+	color: yellow;
 }
+*/
 
-.item p{
-	background-color: purple;
-	display: inline-block;
-	text-align: left;
-}
-
-.last{
-	margin-right: 0;
-}
