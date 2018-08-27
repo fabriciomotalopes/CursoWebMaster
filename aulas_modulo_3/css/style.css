@@ -7,56 +7,61 @@ html, body{
 	height: 100%;
 }
 
-.teste, .teste1, .teste2{
-	width: 300px;
-	height: 30px;
-	margin-left: 30px;
-	margin-top: 30px;
-	display: inline-block;
-	/*background-color: #ccc;*/
-}
-
-.teste1{
-	background-color: rgb(98,98,98);
-}
-
-.teste2{
-	background-color: rgb(50,50,50);
+ul{
+	list-style-position: inside; 
 }
 
 /*
-.teste:hover{
-	background-color: blue;
+ul li:nth-of-type(2){
+	color: red; 
 }
+
+ul span:nth-child(6){
+	color: red; 
+}
+
 */
 
-/*
-.teste:active{
-	background-color: black;
-}
-*/
-
-/* focus serve para quando clicamos e focamos o nosso elemento do fomulário textare, inputs.. 
-.teste:focus{
-	background-color: red;
+.box{
+	width: 100%;
 }
 
-.textarea1{
-	display: block;
-	width: 600px;
+.box > div{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
 	height: 400px;
+	background-color: red;
+	border: 1px solid black;
+}
+
+.p::after{
+	content: ' Fabricio '
+}
+
+
+.p::before{
+	content: ' Fabricio '
+}
+/*
+.box div:not(.one){
+	background-color: gold;
+}
+
+
+.box div:last-child p{
+	color: rgba(255,255,255,1);
+}
+
+Pegamos o último elemento do mesmo tipo
+.box div:last-of-type{
+	background-color: green;
+}
+
+
+.box p:last-of-type{
+	background-color: green;
 }
 */
 
-/*
-.link1:visited{
-	color: purple;
-}
-*/
-
-/*
-.link1:link{
-	color: yellow;
-}
-*/
 
