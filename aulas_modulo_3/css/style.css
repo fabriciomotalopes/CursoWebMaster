@@ -7,61 +7,37 @@ html, body{
 	height: 100%;
 }
 
-ul{
-	list-style-position: inside; 
-}
-
-/*
-ul li:nth-of-type(2){
-	color: red; 
-}
-
-ul span:nth-child(6){
-	color: red; 
-}
-
-*/
-
-.box{
+.parent{
+	background-color: #069;
 	width: 100%;
+	padding: 90px 0;
+	text-align: center;
 }
 
-.box > div{
-	box-sizing: border-box;
-	float: left;
-	width: 33.3%;
-	height: 400px;
+.item{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	margin: 20px 0;
+}
+
+/* Fórmulas: Estamos dizendo que a ada 3 elementos aplique o estilo, incluindo o 3º;
+.parent div:nth-of-type(3n + 1) div.item{
 	background-color: red;
-	border: 1px solid black;
-}
+}*/
 
-.p::after{
-	content: ' Fabricio '
-}
-
-
-.p::before{
-	content: ' Fabricio '
-}
 /*
-.box div:not(.one){
-	background-color: gold;
+.parent div:first-child div.item{
+	background-color: purple;
+}*/
+
+/*
+.parent p:first-of-type{
+	color: orange;
+}*/
+
+
+.parent p:first-child{
+	color: orange;
 }
-
-
-.box div:last-child p{
-	color: rgba(255,255,255,1);
-}
-
-Pegamos o último elemento do mesmo tipo
-.box div:last-of-type{
-	background-color: green;
-}
-
-
-.box p:last-of-type{
-	background-color: green;
-}
-*/
-
-
