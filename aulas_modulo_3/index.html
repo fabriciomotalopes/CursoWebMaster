@@ -10,17 +10,82 @@
 	<body>
 		
 
-		<div class="parent">
+		<form>
+			<fieldset>
+				<legend>Meu Formulário</legend>
 
-			<p>Óla mundi</p>
-			<div><div class="item"></div></div>
-			<div><div class="item"></div></div>
-			<div><div class="item"></div></div>
-			<div><div class="item"></div></div>			
-			<div><div class="item"></div></div>			
-			<p>Óla mundi</p>
-			
-		</div><!--Box-->
+				<div>
+					<input type="text" name="nome" placeholder="Digite o seu nome"/>
+				</div>
+
+				<div>
+					<input type="text" name="email" placeholder="Digite o seu e-mail"/>
+				</div>
+
+				<div>
+					<select name="lista">
+						<option disabled selected="">Qual sua idade?</option>
+						<option>20</option>
+						<option>25+</option>
+						<option>40+</option>
+					</select>
+				</div>
+
+				<h2>Qual sua cidade?</h2>
+
+				<div class="input">
+
+					<div>
+						<input type="radio" value="" name="c">
+						<span>Florianópolis</span>
+					</div>
+
+					<div>
+						<input type="radio" value="" name="c">
+						<span>São Paulo</span>
+					</div>
+
+					<div>
+						<input type="radio" value="" name="c">
+						<span>Rio de Janeiro</span>
+					</div>
+
+				</div>
+
+				<h2>O qué voce gosta de Comer?</h2>
+
+				<div class="input">
+
+					<div>
+						<input type="checkbox" value="" name="c">
+						<span>Fruta</span>
+					</div>
+
+					<div>
+						<input type="checkbox" value="" name="c">
+						<span>Fast Food</span>
+					</div>
+
+					<div>
+						<input type="checkbox" value="" name="c">
+						<span>Salada</span>
+					</div>
+
+				</div>
+
+				<div>
+					<textarea placeholder="Possui alguma obsercação?"></textarea>
+				</div>
+
+				<div>
+					
+					<input type="submit" name="acao" value="Enviar">
+
+				</div>
+
+			</fieldset>
+
+		</form>
 
 	</body>
 
