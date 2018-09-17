@@ -17,8 +17,24 @@ html,body{
 	float: left;
 }
 
-@media screen and (max-width: 580px){
+
+@media screen and (max-aspect-ratio: 2/1){
 	.box{
 		width: 100%;
 	}
 }
+
+/* ou 768 ou 500
+@media screen and (max-width: 768px) , screen and (max-height: 500px){
+	.box{
+		width: 100%;
+	}
+}
+*/
+
+/* e 768 e 500
+@media screen and (max-width: 768px) and (max-height: 500px){
+	.box{
+		width: 100%;
+	}
+}*/
