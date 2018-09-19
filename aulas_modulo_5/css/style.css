@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+
+.slider{
+	width: 800px;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	background-image: url('../images/header_bg.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slider::before{
+  	background-color: rgba(0, 0, 0, 0.80);
+  	content: "";
+	display: block;
+	height: 100%;	
+	width: 100%;
+}
+
