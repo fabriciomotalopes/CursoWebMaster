@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+
+html,body{
+	height: 100%;
+}
+
+main{
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
+}
+
+aside{
+	padding: 30px;
+	background-color: #ccc;
+	/*order: 2;*/
+
+}
+
+article{
+	padding: 30px;
+	background-color: gray;
+	/*order: 1;*/
+}
