@@ -5,24 +5,26 @@
 	font-family: "Open Sans";
 }
 
+
 html,body{
 	height: 100%;
 }
 
-
-.table{
-	display: table;
-	width: 900px;
-	margin: 0 auto;
-	border-collapse: collapse;
+main{
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
 }
 
-.table-row{
-	display: table-row;
+aside{
+	padding: 30px;
+	background-color: #ccc;
+	/*order: 2;*/
+
 }
 
-.table-cel{
-	border: 1px solid black;
-	display: table-cell;
-	padding: 10px;
+article{
+	padding: 30px;
+	background-color: gray;
+	/*order: 1;*/
 }
