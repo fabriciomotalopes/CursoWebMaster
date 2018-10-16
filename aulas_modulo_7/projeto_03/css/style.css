@@ -10,21 +10,64 @@ html,body{
 	height: 100%;
 }
 
-main{
-	display: flex;
-	align-items: center;
-	flex-direction: column-reverse;
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
 }
 
-aside{
-	padding: 30px;
-	background-color: #ccc;
-	/*order: 2;*/
-
+.clear{
+	clear: both;
 }
 
-article{
-	padding: 30px;
-	background-color: gray;
-	/*order: 1;*/
+header{
+	width: 100%;
+	height: 90vh;
+	padding: 40px 2%;
+	max-height: 700px;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../images/capa.png');
+}
+
+header nav{
+	float: right;
+}
+
+header .logo{
+	float: left;
+	width: 160px;
+	height: 40px;
+	background-color: #CCCCCC;
+}
+
+header nav ul{
+	list-style-type: none;
+}
+
+header nav li{
+	float: left;
+	padding: 0 20px;
+}
+
+header li a{
+	text-decoration: none;
+	color: white;
+}
+
+.chamada1{
+	max-width: 600px;
+	float: right;
+	margin: 140px 150px;
+}
+
+.chamada1 h2{
+	font-weight: 300;
+	font-size: 40px;
+	color: white;
+}
+
+.chamada1 p{
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
 }
