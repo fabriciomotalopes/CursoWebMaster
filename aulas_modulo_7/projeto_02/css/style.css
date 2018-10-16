@@ -143,6 +143,62 @@ section.chamada p{
 	font-weight: normal;
 }
 
+.flex-mosaico{
+	display: flex;
+}
+
+.flex-mosaixo-row-reverse{
+	flex-direction: row-reverse;
+}
+
+.item-mosaico-bg-1{
+	background-image: url('../images/mosaico1.jpg');
+}
+
+.item-mosaico-bg-2{
+	background-image: url('../images/mosaico2.jpg');
+}
+
+.item-mosaico-bg-3{
+	background-image: url('../images/mosaico3.jpg');
+}
+
+.item-mosaico-bg-4{
+	background-image: url('../images/mosaico4.jpg');
+}
+
+.item-1-mosaico{
+	width: 60%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+
+.item-2-mosaico{
+	background-color: #4683AB;
+	width: 40%;
+	padding: 60px;
+}
+
+.item-2-mosaico p{
+	color: white;
+}
+
+footer{
+	background-color: rgb(180,180,180);
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer p{
+	margin-top: 8px;
+}
+
+footer img{
+	width: 120px;
+}
+
 @media screen and (max-width: 960px){
 	.bg{
 		height: auto;
@@ -156,6 +212,22 @@ section.chamada p{
 		max-width: 400px;
 		position: static;
 		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 960px){
+	.flex-mosaico{
+		display: block;
+	}
+
+	.item-1-mosaico{
+		padding-top: 70%;
+		width: 100%;
+	}
+
+	.item-2-mosaico{
+		text-align: justify;
+		width: 100%;
 	}
 }
 
